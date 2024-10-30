@@ -6,7 +6,7 @@ Highlighting feature of Java SE 8 is the implementation of Lambda expressions an
 ## Date and Time API
 This new API will allow developers to handle date and time in a more natural, cleaner and easier to understand way.
 
-## Nashhorn JavaScript Engine
+## Nashorn JavaScript Engine
 A new lightweight, high performance implementation of JavaScript engine is integrated to JDk and is available to Java applications via existing APIs.
 
 ## Improved Security
