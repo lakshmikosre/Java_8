@@ -17,6 +17,8 @@ public class Equality {
 		
 		Predicate<Object> integer2 = Predicate.isEqual(55);
 		System.out.println(integer.test(96));
+
+		//It check either value correct with given integer or not
 		
 	  // Predicate Samapt 🙂💀
 
