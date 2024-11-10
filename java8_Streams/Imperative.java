@@ -1,7 +1,5 @@
 package java8_Streams;
 
-
-
 public class Imperative {
 
 	public static void main(String[] args) {
