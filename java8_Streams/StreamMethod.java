@@ -8,11 +8,11 @@ public class StreamMethod {
 
 	public static void main(String[] args) {
 	        
-		List<Integer> list = Arrays.asList(1,2,34,5,6,7,8,9,54,5667,767,234,7668);
-		List<Integer>filteredList = list.stream().filter(n  -> n%2 == 0).map(x  -> x*2).collect(Collectors.toList());
+		List<Integer> list = Arrays.asList(1,2,2,2,34,5,6,7,8,9,54,5667,767,234,7668);
+		List<Integer>filteredList = list.stream().filter(n  -> n%2 == 0).map(x  -> x*2).distinct().sorted().collect(Collectors.toList());
 		System.out.println(filteredList);
 		
-		List<Integer> mappedList  = list.stream().map(x  -> x*2).collect(Collectors.toList());
+		List<Integer> mappedList  = list.stream().map(x  -> x*2).distinct().collect(Collectors.toList());
 		System.out.println(mappedList);
 		
 		
